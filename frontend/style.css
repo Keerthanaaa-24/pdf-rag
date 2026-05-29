@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #1e293b;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #64748b;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.drop-zone {
+  border: 2px dashed #3b82f6;
+  border-radius: 14px;
+  padding: 40px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.drop-zone.dragover {
+  background: #eff6ff;
+}
+
+.drop-zone p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.drop-zone span {
+  display: block;
+  margin: 10px 0;
+  color: #64748b;
+}
+
+.drop-zone button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.drop-zone button:hover {
+  background: #2563eb;
+}
+
+.status {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 15px;
+  background: #f8fafc;
+  margin-bottom: 15px;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 14px;
+  border-radius: 12px;
+  line-height: 1.6;
+  max-width: 80%;
+}
+
+.user-message {
+  background: #3b82f6;
+  color: white;
+  margin-left: auto;
+}
+
+.ai-message {
+  background: white;
+  border: 1px solid #dbeafe;
+}
+
+.chat-input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input-container input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+}
+
+.chat-input-container button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.chat-input-container button:hover {
+  background: #059669;
+}
+
+.loading {
+  margin-top: 15px;
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

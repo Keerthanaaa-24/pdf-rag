@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF RAG Assistant</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>PDF RAG Assistant</h1>
+      <p>Upload a PDF and ask grounded questions.</p>
+    </div>
+
+    <!-- Upload Section -->
+    <div class="card">
+
+      <h2>Upload PDF</h2>
+
+      <div id="dropZone" class="drop-zone">
+        <p>Drag & Drop PDF Here</p>
+        <span>or</span>
+        <input type="file" id="fileInput" accept=".pdf" hidden />
+        <button id="browseBtn">Browse File</button>
+      </div>
+
+      <div id="uploadStatus" class="status"></div>
+
+    </div>
+
+    <!-- Chat Section -->
+    <div class="card">
+
+      <h2>Ask Questions</h2>
+
+      <div id="chatBox" class="chat-box"></div>
+
+      <div class="chat-input-container">
+
+        <input
+          type="text"
+          id="questionInput"
+          placeholder="Ask a question about the PDF..."
+        />
+
+        <button id="askBtn">Ask</button>
+
+      </div>
+
+      <div id="loading" class="loading hidden">
+        Thinking...
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
