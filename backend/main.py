@@ -3,9 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 import shutil
 import os
-
 from models import QuestionRequest, AnswerResponse
-
 from rag import (
     extract_text_from_pdf,
     chunk_text,
