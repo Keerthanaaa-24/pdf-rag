@@ -8,9 +8,6 @@ from sentence_transformers import SentenceTransformer
 from typing import List, Tuple
 
 
-# =====================================================
-# Embedding Model
-# =====================================================
 
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
