@@ -1,5 +1,4 @@
 # 📄 PDF RAG Assistant
-
 A production-ready Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions grounded strictly in the document content.
 
 The application uses:
