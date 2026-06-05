@@ -1,18 +1,12 @@
 const API_BASE = "http://127.0.0.1:8000";
-
 const dropZone = document.getElementById("dropZone");
 const browseBtn = document.getElementById("browseBtn");
 const fileInput = document.getElementById("fileInput");
 const uploadStatus = document.getElementById("uploadStatus");
-
 const askBtn = document.getElementById("askBtn");
 const questionInput = document.getElementById("questionInput");
-
 const chatBox = document.getElementById("chatBox");
-
 const loading = document.getElementById("loading");
-
-
 // -----------------------------
 // Drag & Drop
 // -----------------------------
