@@ -2,15 +2,12 @@
 A production-ready Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions grounded strictly in the document content.
 
 The application uses:
-
 - FastAPI (Backend)
 - Vanilla HTML/CSS/JavaScript (Frontend)
 - Groq API (LLM)
 - FAISS (Vector Database)
 - Sentence Transformers (Embeddings)
 - PyMuPDF (PDF Parsing)
-
----
 
 ## 🚀 Features
 
