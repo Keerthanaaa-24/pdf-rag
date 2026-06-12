@@ -42,7 +42,6 @@ The application uses:
 - Log file rotation
 - Terminal monitoring
 
----
 
 ## 🏗 Architecture
 
